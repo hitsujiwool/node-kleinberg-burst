@@ -4,7 +4,7 @@
 
 ```javascript
 var burst = require('kleinberg-burst');
-var offsets = [1, 2, 3, 10, 11, 12, 13 14, 20, 25, 30];
+var offsets = [1, 2, 3, 10, 11, 12, 13, 14, 20, 25, 30];
 burst(offsets)
 ```
 
