@@ -5,6 +5,8 @@ export default function(offsets, opts = {}) {
   s = (s || s === 0) ? s : 2;
   gamma = (gamma || gamma === 0) ? gamma : 1;
 
+  offsets = offsets.sort((a, b) => { return a - b; });
+
   assert(s > 1, 's must be > 1');
   assert(gamma > 0, 'gamma must be > 0');
   assert(offsets.length > 0, 'offsets length must be > 0');
